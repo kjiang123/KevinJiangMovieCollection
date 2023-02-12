@@ -464,7 +464,6 @@ public class MovieCollection
         }
         catch(IOException exception)
         {
-            // Print out the exception that occurred
             System.out.println("Unable to access " + exception.getMessage());
         }
     }
